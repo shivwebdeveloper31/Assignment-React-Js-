@@ -1,0 +1,277 @@
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+/* second row */
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+#fname{
+    width: 340px;
+}
+
+#lname{
+    width: 340px;
+}
+
+/* third row */
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;  
+}
+.main-box{
+    width: 70%;
+    height: 500px;
+}
+.only-box{
+    top: 93px;
+    width: 49.5%;
+}
+
+
+.button{
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.about-us{
+   font-size: 16px;
+}
+
+.line{
+    margin-top: 20px;
+}
+
+@media (min-width:300px) and (max-width:365px){
+   .first-row{
+       display: block;
+   }
+   .second-row{
+       display: block;
+       
+   }
+   #fname{
+       width: 220px;
+   }
+   #lname{
+       width: 220px;
+   }
+   .third-row{
+       display: block;
+   }
+   .main-box{
+       width: 90%;
+       height: 650px;
+   }
+   .only-box{
+       top: 740px;
+       width: 60%;
+   }
+   
+}
+
+
+@media (min-width:366px) and (max-width:400px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 740px;
+        width: 60%;
+    }
+    
+ }
+
+ @media (min-width:400px) and (max-width:420px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 740px;
+        width: 60%;
+    }
+    
+ }
+
+ @media (min-width:500px) and (max-width:540px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 740px;
+        width: 69%;
+    }
+    
+ }
+
+ @media (min-width:421px) and (max-width:490px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 740px;
+        width: 60%;
+    }
+    
+ }
+
+
+@media (min-width:700px) and (max-width:800px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 80px;
+        width: 49%;
+    }
+    
+ }
+
+ @media (min-width:600px) and (max-width:650px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 720px;
+        width: 73%;
+    }
+    
+ }
+
+ @media (min-width:900px) and (max-width:1030px){
+    .first-row{
+        display: block;
+    }
+    .second-row{
+        display: block;
+        
+    }
+    #fname{
+        width: 220px;
+    }
+    #lname{
+        width: 220px;
+    }
+    .third-row{
+        display: block;
+    }
+    .main-box{
+        width: 90%;
+        height: 650px;
+    }
+    .only-box{
+        top: 80px;
+        width: 57%;
+    }
+    
+ }

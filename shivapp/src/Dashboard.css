@@ -1,0 +1,637 @@
+
+.far{
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.text{
+  margin-top: 14px;
+  font-size: 14px;
+  border: 1px  solid wheat;
+  background-color: white;
+  color: black;
+}
+.text2{
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px  solid wheat;
+  background-color: white;
+  color: black;
+}
+.text-3{
+  margin-top: 19px;
+  font-size: 14px;
+  border: 1px  solid wheat;
+  background-color: white;
+  color: black;
+}
+.number{
+  margin-top: 3px;
+  margin-left: 90px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.number-followers{
+  margin-top: 3px;
+  margin-left: 113px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.number-space{
+  margin-top: 3px;
+  margin-left: 83px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.number-issues{
+  margin-top: 3px;
+  margin-left: 138px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.name{
+  margin-left: 90px;
+}
+
+.name-followers{
+  margin-left: 100px;
+}
+
+.name2{
+  margin-top: 215px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.heading{
+  float: left;
+  font-weight:bold ;
+  margin:7px;
+  padding: 5px;
+}
+.search input[type=text]{
+  width:200px;
+  height:25px;
+  border-radius:25px;
+  border: none;
+}
+    
+.search{
+  margin:7px;
+  display: flex;
+  padding: 5px;
+}
+.Icons{
+  display: flex;
+}
+
+.User{
+  margin-left: 10px;
+  font-size: 18px;
+}
+.Notification{
+  margin-left: 10px;
+  font-size: 18px;
+}
+.Dashboard{
+  font-size: 18px;
+}
+.middle{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.search button{
+  color: #0074D9;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} 
+
+@media (min-width: 431px) and (max-width: 786px){
+  
+  .search input[type=text]{
+    width:150px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+  }
+  
+  .User{
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .Notification{
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .Dashboard{
+    font-size: 15px;
+  }
+      
+  .search button{
+    color: #0074D9;
+    float: right;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  } 
+}
+
+@media (max-width:430px){
+  
+  .search input[type=text]{
+    width: 80px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+  }
+  
+  .User{
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .Notification{
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .Dashboard{
+    font-size: 14px;
+  }
+      
+  .search button{
+    color: #0074D9;
+    float: right;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  } 
+}
+
+
+
+
+
+
+.graph{
+  display: flex; 
+  justify-content: space-around; 
+  margin-top: 50px;
+ 
+  
+}
+@media (max-width:800px){
+
+  .graph{
+    display: block;
+  }
+
+}
+
+img{
+  width: 300px;
+  height: 230px;
+ 
+  
+  
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:358px) and (max-width:365px){
+  .middle{
+    display: block;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 1140px;
+  }
+  .small-box1{
+    margin-top: 975px;
+  }
+  .small-box2{
+    margin-top: 810px;
+  }
+  .small-box3{
+    margin-top: 645px;
+  }
+  .big{
+    width: 300px;
+  }
+  .photo{
+    margin-top: 1085px;
+    width: 280px;
+  }
+  .photo2{
+margin-top: 1825px;
+width: 280px;
+  }
+  .photo1{
+    margin-top: 1455px;
+    width: 280px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+@media (min-width:310px) and (max-width:320px){
+  .search input[type=text]{
+    width:30px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+  }
+  
+  .middle{
+    display: block;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 1140px;
+  }
+  .small-box1{
+    margin-top: 975px;
+  }
+  .small-box2{
+    margin-top: 810px;
+  }
+  .small-box3{
+    margin-top: 645px;
+  }
+  .big{
+    width: 260px;
+  }
+  .photo{
+    margin-top: 1090px;
+    width: 240px;
+  }
+  .photo2{
+margin-top: 1840px;
+width: 240px;
+  }
+  .photo1{
+    margin-top: 1465px;
+    width: 240px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+@media (min-width:366px) and (max-width:413px){
+  .middle{
+    display: block;
+  }
+  .search input[type=text]{
+    width: 40px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 1136px;
+  }
+  .small-box1{
+    margin-top: 972px;
+  }
+  .small-box2{
+    margin-top: 805px;
+  }
+  .small-box3{
+    margin-top: 640px;
+  }
+  .big{
+    width: 268px;
+  }
+  .photo{
+    margin-top: 1092px;
+    width: 250px;
+  }
+  .photo2{
+margin-top: 1832px;
+width: 250px;
+  }
+  .photo1{
+    margin-top: 1462px;
+    width: 250px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+
+
+@media (min-width:600px) and (max-width:640px){
+  .middle{
+    display: block;
+  }
+  .search input[type=text]{
+    width: 40px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 1136px;
+  }
+  .small-box1{
+    margin-top: 972px;
+  }
+  .small-box2{
+    margin-top: 805px;
+  }
+  .small-box3{
+    margin-top: 640px;
+  }
+  .big{
+    width: 268px;
+  }
+  .photo{
+    margin-top: 1092px;
+    width: 250px;
+  }
+  .photo2{
+margin-top: 1832px;
+width: 250px;
+  }
+  .photo1{
+    margin-top: 1462px;
+    width: 250px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+@media (min-width:750px) and (max-width:770px){
+  .middle{
+    display: block;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 495px;
+  }
+  .small-box1{
+    margin-top: 328px;
+  }
+  .small-box2{
+    margin-top: 165px;
+  }
+  .small-box3{
+    margin-top: 0px;
+  }
+  .big{
+    width: 300px;
+  }
+  .photo{
+    margin-top: 445px;
+    width: 280px;
+  }
+  .photo2{
+margin-top: 1180px;
+width: 280px;
+  }
+  .photo1{
+    margin-top: 815px;
+    width: 280px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+@media (min-width:790px) and (max-width:800px){
+  .middle{
+    display: block;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 495px;
+  }
+  .small-box1{
+    margin-top: 328px;
+  }
+  .small-box2{
+    margin-top: 165px;
+  }
+  .small-box3{
+    margin-top: 0px;
+  }
+  .big{
+    width: 300px;
+  }
+  .photo{
+    margin-top: 445px;
+    width: 280px;
+  }
+  .photo2{
+margin-top: 1180px;
+width: 280px;
+  }
+  .photo1{
+    margin-top: 815px;
+    width: 280px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+@media (min-width:1000px) and (max-width:1024px){
+  .graph{
+    display: block;
+  }
+  
+  .middle{
+    display: block;
+  }
+  .fix{
+    width: 200px;
+  }
+  .small-box{
+    margin-top: 495px;
+  }
+  .small-box1{
+    margin-top: 328px;
+  }
+  .small-box2{
+    margin-top: 165px;
+  }
+  .small-box3{
+    margin-top: 0px;
+  }
+  .big{
+    width: 300px;
+  }
+  .photo{
+    margin-top: 445px;
+    width: 280px;
+  }
+  .photo2{
+margin-top: 1180px;
+width: 280px;
+  }
+  .photo1{
+    margin-top: 815px;
+    width: 280px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
+
+
+@media (min-width:1026px) and (max-width:1280px){
+  .fix{
+    width: 200px;
+  }
+  .big{
+    width: 300px;
+  }
+  .photo{
+    width: 280px;
+  }
+  .photo2{
+width: 280px;
+  }
+  .photo1{
+    width: 280px;
+      }
+      .text{
+        margin-top: 19px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+      .text-3{
+        margin-top: 23px;
+        font-size: 14px;
+        border: 1px  solid wheat;
+        background-color: white;
+        color: black;
+      }
+}
